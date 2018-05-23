@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1077C0CCB1FD77B750DFDFB063B7F33F /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32AE10ECA153142E3F8D6BD8F70CD90 /* Repeater.swift */; };
+		24ABAA0166E013711CE023BCE1C64EC5 /* Repeat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75440D00284981BA1AD2C53F27D12DEF /* Repeat-dummy.m */; };
+		311D1E6A04ADD355E66AC033BAFED79E /* Pods-Time Ball - Study Timer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2999F606BEE607F8F9135CB177B1841F /* Pods-Time Ball - Study Timer-dummy.m */; };
+		3E9798854D34FCD372B42C274A6C23E1 /* Pods-Time Ball - Study Timer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5227187FFA2A111CBB2284B8AA4639 /* Pods-Time Ball - Study Timer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D388BC0CAFE358FEC3AAA274F563619 /* Debouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C06A0C8D44B34AC669F5F5A560AE65 /* Debouncer.swift */; };
+		4EF84203947643498B1C1F2959B5EC9F /* Repeat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED4C47E9C0399194F2ACA8A15B3F0966 /* Repeat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5585694A06E27BB321EFE9E2E32EB7FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6F415C42B14C3E2C5C67B212216F51B8 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBA231EECE33DB79A7A905F2083F433 /* SwiftyTimer.swift */; };
+		881F80797E4CE81B4D8129980E388822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D90C57BB0D5D0F4AA3D6DE01535C3EEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DFA7EB8AD6AD3283E503A9C324F06246 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234B8F4B1531591A58397DFD647D7FA4 /* SwiftyTimer-dummy.m */; };
+		E73EF42884423B1A5A5447A1B62FF572 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0130FBA1AA639321B1A3D84316374A9 /* Throttler.swift */; };
+		FC75C8230B0B09473CF9F8A76F15BB6D /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F12447338879A5C2BFC87E4C76B31EA /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0A7CB5C7A0B5EFCB26E5E36F110CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41BD66D76B63632144D84046A44ADBAE;
+			remoteInfo = Repeat;
+		};
+		D3AC642B53E360BB8AB4B85BE817078A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FD43D15565AD5BC9E44DE63F65CCD55;
+			remoteInfo = SwiftyTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD86347A6F7958215B021E4E2AE292D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12FF6E1CFC753D6551EA68D04E0576AA /* Pods-Time Ball - Study Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Time Ball - Study Timer.release.xcconfig"; sourceTree = "<group>"; };
+		1FBA231EECE33DB79A7A905F2083F433 /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
+		234B8F4B1531591A58397DFD647D7FA4 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
+		27F359329677DBF0F65F47B8197BF948 /* Pods-Time Ball - Study Timer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Time Ball - Study Timer.modulemap"; sourceTree = "<group>"; };
+		297821B81BED1EC6D27486744BE5B543 /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
+		2999F606BEE607F8F9135CB177B1841F /* Pods-Time Ball - Study Timer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Time Ball - Study Timer-dummy.m"; sourceTree = "<group>"; };
+		2CED0A45C0B725D29893DF2003D3D4A5 /* Pods_Time_Ball___Study_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Time_Ball___Study_Timer.framework; path = "Pods-Time Ball - Study Timer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F12447338879A5C2BFC87E4C76B31EA /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
+		533BE77B458D073C5F4F7CB0E6334E02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634ED406EBFDCB62EAA0228B9ADD4546 /* Pods-Time Ball - Study Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Time Ball - Study Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		667AAA34DA2246C91F073F39E5E09771 /* Repeat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Repeat.modulemap; sourceTree = "<group>"; };
+		75440D00284981BA1AD2C53F27D12DEF /* Repeat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Repeat-dummy.m"; sourceTree = "<group>"; };
+		7DC8B853DF52F98656A7F7A92EEF408F /* Pods-Time Ball - Study Timer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Time Ball - Study Timer-frameworks.sh"; sourceTree = "<group>"; };
+		83064C50EDF3B206B21115A07EEBC523 /* Pods-Time Ball - Study Timer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Time Ball - Study Timer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E014B00054691FA12532AE692BF765D /* Pods-Time Ball - Study Timer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Time Ball - Study Timer-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C06A0C8D44B34AC669F5F5A560AE65 /* Debouncer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debouncer.swift; path = Sources/Repeat/Debouncer.swift; sourceTree = "<group>"; };
+		A33794B83BC29D886FE56FD0697FA556 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6131B425D5BDA1F101917D6B3961FEF /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
+		B32AE10ECA153142E3F8D6BD8F70CD90 /* Repeater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Repeater.swift; path = Sources/Repeat/Repeater.swift; sourceTree = "<group>"; };
+		B5915174D60539E18C2B4A590DB2C228 /* Pods-Time Ball - Study Timer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Time Ball - Study Timer-acknowledgements.plist"; sourceTree = "<group>"; };
+		B80024E1A010D7056F4123A3A19F0952 /* Repeat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Repeat.xcconfig; sourceTree = "<group>"; };
+		B96437D3E85AF6BD9A9F51D85BE1F7AE /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		CF037C5A4FF01D1BB1503395D0591703 /* Repeat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Repeat-prefix.pch"; sourceTree = "<group>"; };
+		E68913DEF0652AB549031FDD8D20A115 /* Repeat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Repeat.framework; path = Repeat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E72C6570C3393E2C9A315FCF19ABFA20 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C47E9C0399194F2ACA8A15B3F0966 /* Repeat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Repeat-umbrella.h"; sourceTree = "<group>"; };
+		F0130FBA1AA639321B1A3D84316374A9 /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = Sources/Repeat/Throttler.swift; sourceTree = "<group>"; };
+		FA5227187FFA2A111CBB2284B8AA4639 /* Pods-Time Ball - Study Timer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Time Ball - Study Timer-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24EF34CEAD1767BC60F0F61BA6BFCDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881F80797E4CE81B4D8129980E388822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		671670BF51CFBE564A9CA5F466071879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5585694A06E27BB321EFE9E2E32EB7FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC869520F7864BE2A9ED77B0E02E555B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90C57BB0D5D0F4AA3D6DE01535C3EEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D23BAE9DCA329109EA0D434B56A11DD /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				A0C06A0C8D44B34AC669F5F5A560AE65 /* Debouncer.swift */,
+				B32AE10ECA153142E3F8D6BD8F70CD90 /* Repeater.swift */,
+				F0130FBA1AA639321B1A3D84316374A9 /* Throttler.swift */,
+				2EF155A7968C43D1ABC0DCAE3E63075A /* Support Files */,
+			);
+			name = Repeat;
+			path = Repeat;
+			sourceTree = "<group>";
+		};
+		2EF155A7968C43D1ABC0DCAE3E63075A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				533BE77B458D073C5F4F7CB0E6334E02 /* Info.plist */,
+				667AAA34DA2246C91F073F39E5E09771 /* Repeat.modulemap */,
+				B80024E1A010D7056F4123A3A19F0952 /* Repeat.xcconfig */,
+				75440D00284981BA1AD2C53F27D12DEF /* Repeat-dummy.m */,
+				CF037C5A4FF01D1BB1503395D0591703 /* Repeat-prefix.pch */,
+				ED4C47E9C0399194F2ACA8A15B3F0966 /* Repeat-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Repeat";
+			sourceTree = "<group>";
+		};
+		32083C94C5FBB27169DC3356D39D683D /* SwiftyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA231EECE33DB79A7A905F2083F433 /* SwiftyTimer.swift */,
+				FABEDFD7554D0E621822275D7F63C32B /* Support Files */,
+			);
+			name = SwiftyTimer;
+			path = SwiftyTimer;
+			sourceTree = "<group>";
+		};
+		70BB52A71E4478AA7AD138E0929BD8F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D23BAE9DCA329109EA0D434B56A11DD /* Repeat */,
+				32083C94C5FBB27169DC3356D39D683D /* SwiftyTimer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				70BB52A71E4478AA7AD138E0929BD8F5 /* Pods */,
+				DD04D1001CC2A4D2AF0C497CB0972734 /* Products */,
+				CBF801C993A9512D41461BCFBC181EC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF801C993A9512D41461BCFBC181EC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD83064A260875FAA3B2374F887B98D9 /* Pods-Time Ball - Study Timer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD04D1001CC2A4D2AF0C497CB0972734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CED0A45C0B725D29893DF2003D3D4A5 /* Pods_Time_Ball___Study_Timer.framework */,
+				E68913DEF0652AB549031FDD8D20A115 /* Repeat.framework */,
+				E72C6570C3393E2C9A315FCF19ABFA20 /* SwiftyTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABEDFD7554D0E621822275D7F63C32B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AD86347A6F7958215B021E4E2AE292D /* Info.plist */,
+				B96437D3E85AF6BD9A9F51D85BE1F7AE /* SwiftyTimer.modulemap */,
+				A6131B425D5BDA1F101917D6B3961FEF /* SwiftyTimer.xcconfig */,
+				234B8F4B1531591A58397DFD647D7FA4 /* SwiftyTimer-dummy.m */,
+				297821B81BED1EC6D27486744BE5B543 /* SwiftyTimer-prefix.pch */,
+				4F12447338879A5C2BFC87E4C76B31EA /* SwiftyTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyTimer";
+			sourceTree = "<group>";
+		};
+		FD83064A260875FAA3B2374F887B98D9 /* Pods-Time Ball - Study Timer */ = {
+			isa = PBXGroup;
+			children = (
+				A33794B83BC29D886FE56FD0697FA556 /* Info.plist */,
+				27F359329677DBF0F65F47B8197BF948 /* Pods-Time Ball - Study Timer.modulemap */,
+				83064C50EDF3B206B21115A07EEBC523 /* Pods-Time Ball - Study Timer-acknowledgements.markdown */,
+				B5915174D60539E18C2B4A590DB2C228 /* Pods-Time Ball - Study Timer-acknowledgements.plist */,
+				2999F606BEE607F8F9135CB177B1841F /* Pods-Time Ball - Study Timer-dummy.m */,
+				7DC8B853DF52F98656A7F7A92EEF408F /* Pods-Time Ball - Study Timer-frameworks.sh */,
+				8E014B00054691FA12532AE692BF765D /* Pods-Time Ball - Study Timer-resources.sh */,
+				FA5227187FFA2A111CBB2284B8AA4639 /* Pods-Time Ball - Study Timer-umbrella.h */,
+				634ED406EBFDCB62EAA0228B9ADD4546 /* Pods-Time Ball - Study Timer.debug.xcconfig */,
+				12FF6E1CFC753D6551EA68D04E0576AA /* Pods-Time Ball - Study Timer.release.xcconfig */,
+			);
+			name = "Pods-Time Ball - Study Timer";
+			path = "Target Support Files/Pods-Time Ball - Study Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22918F4AAB428E34F2097634B412A7A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF84203947643498B1C1F2959B5EC9F /* Repeat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AAA1BEBCBD01DEAA17B4C5C6DA4D5C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC75C8230B0B09473CF9F8A76F15BB6D /* SwiftyTimer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F64609A23F105A78675BCB65596F742D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9798854D34FCD372B42C274A6C23E1 /* Pods-Time Ball - Study Timer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FD43D15565AD5BC9E44DE63F65CCD55 /* SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59290ECAE861E76FCA620E7DA29A4802 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildPhases = (
+				FB1E8B30DEBE56847503F037E0137806 /* Sources */,
+				24EF34CEAD1767BC60F0F61BA6BFCDE6 /* Frameworks */,
+				3AAA1BEBCBD01DEAA17B4C5C6DA4D5C5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTimer;
+			productName = SwiftyTimer;
+			productReference = E72C6570C3393E2C9A315FCF19ABFA20 /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41BD66D76B63632144D84046A44ADBAE /* Repeat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A2A8C7C843765BA049C559072900D7A /* Build configuration list for PBXNativeTarget "Repeat" */;
+			buildPhases = (
+				D8C6847E9EDAA81461A2F946147E8FF0 /* Sources */,
+				EC869520F7864BE2A9ED77B0E02E555B /* Frameworks */,
+				22918F4AAB428E34F2097634B412A7A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repeat;
+			productName = Repeat;
+			productReference = E68913DEF0652AB549031FDD8D20A115 /* Repeat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A9EF8BC07DB66185B179E4C240D2A7A /* Pods-Time Ball - Study Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085FF5764A19C3E0943FB0EA76922D19 /* Build configuration list for PBXNativeTarget "Pods-Time Ball - Study Timer" */;
+			buildPhases = (
+				BED3B3330A0B60E30387459BD091E168 /* Sources */,
+				671670BF51CFBE564A9CA5F466071879 /* Frameworks */,
+				F64609A23F105A78675BCB65596F742D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A243BAAEC54EC8A9FB9C63E19D027534 /* PBXTargetDependency */,
+				59925CC776189E266B5F3025FF4ED87F /* PBXTargetDependency */,
+			);
+			name = "Pods-Time Ball - Study Timer";
+			productName = "Pods-Time Ball - Study Timer";
+			productReference = 2CED0A45C0B725D29893DF2003D3D4A5 /* Pods_Time_Ball___Study_Timer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DD04D1001CC2A4D2AF0C497CB0972734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A9EF8BC07DB66185B179E4C240D2A7A /* Pods-Time Ball - Study Timer */,
+				41BD66D76B63632144D84046A44ADBAE /* Repeat */,
+				1FD43D15565AD5BC9E44DE63F65CCD55 /* SwiftyTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BED3B3330A0B60E30387459BD091E168 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311D1E6A04ADD355E66AC033BAFED79E /* Pods-Time Ball - Study Timer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C6847E9EDAA81461A2F946147E8FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D388BC0CAFE358FEC3AAA274F563619 /* Debouncer.swift in Sources */,
+				24ABAA0166E013711CE023BCE1C64EC5 /* Repeat-dummy.m in Sources */,
+				1077C0CCB1FD77B750DFDFB063B7F33F /* Repeater.swift in Sources */,
+				E73EF42884423B1A5A5447A1B62FF572 /* Throttler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1E8B30DEBE56847503F037E0137806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA7EB8AD6AD3283E503A9C324F06246 /* SwiftyTimer-dummy.m in Sources */,
+				6F415C42B14C3E2C5C67B212216F51B8 /* SwiftyTimer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59925CC776189E266B5F3025FF4ED87F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyTimer;
+			target = 1FD43D15565AD5BC9E44DE63F65CCD55 /* SwiftyTimer */;
+			targetProxy = D3AC642B53E360BB8AB4B85BE817078A /* PBXContainerItemProxy */;
+		};
+		A243BAAEC54EC8A9FB9C63E19D027534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Repeat;
+			target = 41BD66D76B63632144D84046A44ADBAE /* Repeat */;
+			targetProxy = 9F0A7CB5C7A0B5EFCB26E5E36F110CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1529547D87DABE111D1C0B9C2F563F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80024E1A010D7056F4123A3A19F0952 /* Repeat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Repeat/Repeat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Repeat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Repeat/Repeat.modulemap";
+				PRODUCT_NAME = Repeat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15B887DB3F928EBD38ED13D3E9456398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6131B425D5BDA1F101917D6B3961FEF /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		413CED6DD8B60874C86EAEE3DE7E4DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FF6E1CFC753D6551EA68D04E0576AA /* Pods-Time Ball - Study Timer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Time Ball - Study Timer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Time Ball - Study Timer/Pods-Time Ball - Study Timer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Time_Ball___Study_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D56F0C55E85BDEB3C4356D9FC79F2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6131B425D5BDA1F101917D6B3961FEF /* SwiftyTimer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				PRODUCT_NAME = SwiftyTimer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE95D438D3A4FCA92D40074C30233A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B80024E1A010D7056F4123A3A19F0952 /* Repeat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Repeat/Repeat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Repeat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Repeat/Repeat.modulemap";
+				PRODUCT_NAME = Repeat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7ACD219F487FC21E7FFD397A77CEE79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 634ED406EBFDCB62EAA0228B9ADD4546 /* Pods-Time Ball - Study Timer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Time Ball - Study Timer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Time Ball - Study Timer/Pods-Time Ball - Study Timer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Time_Ball___Study_Timer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085FF5764A19C3E0943FB0EA76922D19 /* Build configuration list for PBXNativeTarget "Pods-Time Ball - Study Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7ACD219F487FC21E7FFD397A77CEE79 /* Debug */,
+				413CED6DD8B60874C86EAEE3DE7E4DBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59290ECAE861E76FCA620E7DA29A4802 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B887DB3F928EBD38ED13D3E9456398 /* Debug */,
+				7D56F0C55E85BDEB3C4356D9FC79F2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A2A8C7C843765BA049C559072900D7A /* Build configuration list for PBXNativeTarget "Repeat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1529547D87DABE111D1C0B9C2F563F1B /* Debug */,
+				CE95D438D3A4FCA92D40074C30233A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

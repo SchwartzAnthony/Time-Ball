@@ -1,0 +1,15 @@
+PODS:
+  - Repeat (0.5.1)
+  - SwiftyTimer (2.0.0)
+
+DEPENDENCIES:
+  - Repeat
+  - SwiftyTimer
+
+SPEC CHECKSUMS:
+  Repeat: 225484fc8401efbe839a0ea9061b41509d0de016
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+
+PODFILE CHECKSUM: 474c793e9bde2ce2750ea667bff646227c1bdd96
+
+COCOAPODS: 1.4.0
